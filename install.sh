@@ -1,4 +1,4 @@
-apt update && apt upgrade -y && apt install nginx
+apt update && apt upgrade -y && apt install nginx -y
 sudo fallocate -l 16G /swapfile
 sudo dd if=/dev/zero of=/swapfile bs=1024 count=2097152
 sudo chmod 600 /swapfile
