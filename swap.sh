@@ -6,4 +6,4 @@ sudo swapon /swapfile
 cd /etc/
 rm /etc/fstab
 curl https://raw.githubusercontent.com/mikespeelg/galaxichost/main/fstab >> fstab
-echo Ik ben klaar ;)
+echo Ik ben klaar met SWAP
